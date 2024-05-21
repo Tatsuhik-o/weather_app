@@ -1,0 +1,161 @@
+.plus-jakarta-sans-taha{
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+*{
+  box-sizing: border-box;
+  user-select: none;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: white;
+}
+.inputWrapper{
+  display: flex;
+  width: 500px;
+  transform: translateY(-10px);
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+}
+.inputWrapper input{
+  width: 50%;
+  height: 35px;
+  font-size: 1.5rem;
+}
+.getCity{
+  height: 35px;
+  background-color: #208CBB;
+  cursor: pointer;
+  color: white;
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+  transition: transform 0.2s ease-in-out;
+  font-size: 1.3rem;
+  &:active{
+    transform: scale(0.9);
+  }
+}
+.weatherContainer{
+  background: linear-gradient(to bottom, #208CBB, #5DA5CB);
+  width: 500px;
+  height: 250px;
+  border: 2px solid #234d69;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.upperPart{
+  height: 45%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 15px;
+}
+.sliderPart{
+  height: 1px;
+  width: 85%;
+  border-radius: 2px;
+  background-color: #bdc3c7;
+  align-self: center;
+}
+.topLeft{
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  text-transform: capitalize;
+}
+.topRight{
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+.cityContainer{
+  height: 30%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+  font-size: 1.4rem;
+  padding-left: 10px;
+}
+.currentTemp{
+  height: 70%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 4.5rem;
+  padding-left: 5px;
+}
+.weatherIcon{
+  height: 50%;
+  width: 50%;
+  margin-left: auto;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.weatherText{
+  height: 50%;
+  width: 100%;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  font-size: 1.2rem;
+  padding-bottom: 10px;
+  padding-right: 25px;
+  text-transform: capitalize;
+}
+.bottomPart{
+  height: 45%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 15px;
+}
+.hourlyTemp{
+  width: 15%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.nextHour{
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.nextIcon{
+  height: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.nextTemp{
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
